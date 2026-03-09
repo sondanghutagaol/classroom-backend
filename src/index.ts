@@ -4,7 +4,7 @@ AgentAPI.config();
 import "dotenv/config";
 import express, { Request, Response } from "express";
 import subjectsRouter from "./routes/subjects.js";
-import { db } from "./db";
+
 import cors from "cors";
 import securityMiddleware from "./middleware/security.js";
 import { toNodeHandler } from "better-auth/node";
